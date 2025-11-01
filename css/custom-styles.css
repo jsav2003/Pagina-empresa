@@ -5,6 +5,14 @@
  */
 
 /* ========================================
+   BASE STYLES - PREVENT HORIZONTAL SCROLL
+   ======================================== */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* ========================================
    BOOTSTRAP VARIABLE OVERRIDES
    ======================================== */
 :root {
